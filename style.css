@@ -10,12 +10,18 @@
   font-style: normal; /* It's a bold style but not an italic one */
 }
 
-
-
-
-/* Use the custom font in your CSS */
 body {
-  font-family: 'MyCustomFont', sans-serif;
+  font-family: Arial, sans-serif;
+  margin: 0; /* Verwijder auto margin */
+  width: 100%; /* Zorg ervoor dat de body de volledige breedte gebruikt */
+  background-color: #D4E0E0;
+  color: #333;
+}
+
+main {
+  margin: 0; /* Verwijder margin, zodat main geen extra ruimte rondom het element heeft */
+  display: flex;
+  flex-direction: column;
 }
 
 /* Skip-link */
