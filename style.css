@@ -1,19 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-/* Algemene stijlen */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0; /* Verwijder auto margin */
-  width: 100%; /* Zorg ervoor dat de body de volledige breedte gebruikt */
-  background-color: #D4E0E0;
-  color: #333;
-}
-
-main {
-  margin: 0; /* Verwijder margin, zodat main geen extra ruimte rondom het element heeft */
-  display: flex;
-  flex-direction: column;
-}
+/* Algemene stijlen
 
 /* Define the custom font */
 @font-face {
@@ -124,36 +111,7 @@ body {
   gap: 1em;
 } */
 
-/* Afleveringen en afbeeldingen */
-/* .episodes {
-  max-width: 90%;
-  display: flex;
-  flex-direction: column;
-  gap: 2em;
-}
 
-.episode img, .episode-populair img, .info img {
-  width: 8em;
-  height: 8em;
-  object-fit: cover;
-  border-radius: 0.5em 0.5em 0.5em 0.5em;
-  margin: 1em 0 0 1em;
-}
-
-.logo img {
-  width: 8em;
-height: 8em;
-object-fit: cover;
-border-radius: 0.5em 0.5em 0.5em 0.5em;
-margin: 1em 0 0 1em;
-}
-
-.content {
-  padding: 1em;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-} */
 
 .beginscherm {
   max-width: 100%;
@@ -316,7 +274,7 @@ h1 {
 h2 {
   font-family: 'hanson', sans-serif; /* Use the custom font */
   font-weight: bold; /* Ensure it's using the bold version */
-  font-size: 2.5em;
+  font-size: 2em;
   margin-bottom: 0.5em;
   color: rgb(0, 0, 0);
 }
